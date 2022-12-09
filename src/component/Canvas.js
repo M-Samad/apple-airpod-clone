@@ -10,14 +10,19 @@ function Canvas() {
   }, []);
 
   const scrollProgress = () => {
-    const scrollpx = document.documentElement.scrollTop;
-    const winHeightPx =
-      document.documentElement.scrollHeight -
-      document.documentElement.clientHeight;
+    // const scrollpx = document.documentElement.scrollTop;
+    // const winHeightPx =
+    //   document.documentElement.scrollHeight -
+    //   document.documentElement.clientHeight;
 
-    const scrollLen = Math.ceil(((scrollpx / winHeightPx) * 100) / 1.6);
-
-    setScrolled(scrollLen);
+    // const scrollLen = Math.ceil(((scrollpx / winHeightPx) * 100) / 1.6);
+    // let scrollLen;
+    if (window.pageYOffset < 1400) {
+      const scrollLen = Math.floor(window.pageYOffset / 22);
+      setScrolled(scrollLen);
+    } else if (window.pageYOffset >= 1400) {
+      setScrolled(64);
+    }
   };
 
   return (

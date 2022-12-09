@@ -3,6 +3,7 @@ import Canvas from "./component/Canvas";
 import NavbarGlobal from "./component/Navbarglobal";
 import Navlocal from "./component/Navlocal";
 import Airpodstext from "./component/Airpodstext";
+import Imagesairpodes from "./component/Imagesairpodes";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavbarGlobal />
       <Navlocal />
       <Airpodstext />
+      <Imagesairpodes />
       <Canvas />
     </>
   );
