@@ -1,0 +1,43 @@
+.hero-lockup {
+  position: fixed;
+  z-index: -2;
+}
+.hero-eyebrow {
+  color: rgb(86, 251, 86);
+  margin: 110px 43vw 0 46vw;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.hero-headline {
+  margin: 0 193px 0 193px;
+  color: white;
+  font-size: 200px;
+}
+
+.hero-announce {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 0 0;
+}
+
+.hero-links {
+  display: flex;
+  justify-content: space-between;
+  min-width: 450px;
+}
+
+.icon-copy {
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.icon-copy:hover {
+  text-decoration: underline;
+}
+
+.icon-wrapper {
+  text-decoration: none;
+}
