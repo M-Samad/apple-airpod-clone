@@ -1,6 +1,6 @@
 .hero-lockup {
   position: fixed;
-  z-index: -2;
+  z-index: -1;
 }
 .hero-eyebrow {
   color: rgb(86, 251, 86);
@@ -13,6 +13,15 @@
   margin: 0 193px 0 193px;
   color: white;
   font-size: 200px;
+}
+
+.hero-rebuilt {
+  position: fixed;
+  z-index: -4;
+  margin: 225px 220px 0 217px;
+  opacity: 0;
+  color: white;
+  font-size: 85px;
 }
 
 .hero-announce {
