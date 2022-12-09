@@ -1,0 +1,75 @@
+.airpodes-nav {
+  width: 100%;
+  height: 52px;
+  top: 0px;
+
+  /* opacity: 70%; */
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+}
+.sticky-local-nav {
+  position: sticky;
+  background-color: rgba(51, 51, 51, 0.6);
+  border-bottom: outset;
+  border-bottom-width: thin;
+}
+.airpodes-nav-content {
+  padding: 9px 12px 9px 12px;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+.airpodes {
+  font-size: 21px;
+  color: white;
+  text-decoration: none;
+}
+.airpodes-container {
+  max-width: 980px;
+  min-width: 980px;
+  border-bottom: outset;
+  border-bottom-width: thin;
+  display: flex;
+  justify-content: space-between;
+}
+.airpodes-container-bottom {
+  border-bottom: none;
+}
+
+.airpodes-nav-title {
+  display: flex;
+}
+.airpodes {
+  font-weight: 600;
+}
+.local-nav {
+  display: flex;
+  padding: 14px 12px 9px 12px;
+  /* height: 25px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  min-width: 300px;
+}
+.local-nav-content {
+  font-family: auto;
+  padding: 2px 0 9px 0;
+  font-size: small;
+  color: white;
+  text-decoration: none;
+  opacity: 80%;
+}
+.local-nav-content:hover {
+  opacity: 100%;
+}
+.buy-button {
+  padding: 3px 10px 3px 10px;
+  border-radius: 14px;
+  /* background-color: #136dff; */
+  background-color: #0071e3;
+  color: white;
+}
