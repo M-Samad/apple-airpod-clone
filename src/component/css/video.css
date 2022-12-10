@@ -1,0 +1,22 @@
+.video-container {
+  margin-top: -320px;
+  font-weight: 700;
+  font-size: 45px;
+  color: white;
+  max-width: 980px;
+  min-width: 980px;
+}
+
+.video-box {
+  display: flex;
+  justify-content: center;
+}
+.video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
