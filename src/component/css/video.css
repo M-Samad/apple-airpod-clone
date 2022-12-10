@@ -10,6 +10,7 @@
 .video-box {
   display: flex;
   justify-content: center;
+  margin: 0 0 500px 0;
 }
 .video {
   width: 100vw;

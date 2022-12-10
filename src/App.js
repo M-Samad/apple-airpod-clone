@@ -6,6 +6,7 @@ import Airpodstext from "./component/Airpodstext";
 import Video from "./component/Video";
 import VideoMan from "./component/VideoMan";
 import Soundvid from "./component/Soundvid";
+import Footer from "./component/Footer";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       <Airpodstext />
       <Canvas />
       <Video />
-      <Soundvid />
+      <Footer />
+      {/* <Soundvid /> */}
       {/* <VideoMan /> */}
     </>
   );
