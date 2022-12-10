@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   height: 300vh;
+  width: 100vw;
   z-index: -1;
 }
 
@@ -25,12 +26,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
   position: fixed;
-  top: -200px;
+  top: -125px;
   z-index: -1;
 }
-.airpod-images {
+/* .airpod-images {
   min-width: 100%;
-}
+} */
 
 .App-link {
   color: #61dafb;

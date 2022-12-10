@@ -1,5 +1,6 @@
 .hero-lockup {
   position: fixed;
+  justify-content: center;
   z-index: -1;
 }
 .hero-eyebrow {
@@ -19,7 +20,7 @@
   .hero-headline {
     margin: 50px 193px 0 250px;
     color: white;
-    font-size: 170px;
+    font-size: 130px;
   }
 }
 
@@ -36,10 +37,11 @@
   .hero-rebuilt {
     position: fixed;
     z-index: -4;
-    margin: 330px 220px 0 280px;
+    margin: 230px 225px 0 265px;
     opacity: 0;
     color: white;
-    font-size: 70px;
+    font-size: 60px;
+    align-self: center;
   }
 }
 
@@ -50,7 +52,7 @@
 }
 @media screen and (max-width: 1500px) {
   .hero-announce {
-    margin: 175px 0px 0 0px;
+    margin: 100px 0px 0 0px;
   }
 }
 
