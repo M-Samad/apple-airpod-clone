@@ -14,11 +14,7 @@ function VideoMan() {
     scrollVideo();
   });
 
-  return (
-    <div>
-      <video id="video" src={Video}></video>
-    </div>
-  );
+  return <div>{/* <video id="video" src={Video}></video> */}</div>;
 }
 
 export default VideoMan;

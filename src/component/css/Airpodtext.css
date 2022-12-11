@@ -16,9 +16,24 @@
   font-size: 200px;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (min-width: 1300px) and (max-width: 1500px) {
   .hero-headline {
-    margin: 50px 193px 0 250px;
+    /* position: fixed; */
+    /* left: 70%;
+    top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    margin: 50px 193px 0 350px;
+    color: white;
+    font-size: 130px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .hero-headline {
+    /* position: fixed; */
+    /* left: 70%;
+    top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    margin: 50px 193px 0 285px;
     color: white;
     font-size: 130px;
   }

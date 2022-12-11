@@ -40,7 +40,7 @@ function Canvas() {
 
   return (
     <>
-      <div>
+      <div className="hidden-airpod-images">
         {imageArr &&
           imageArr.map((x) => {
             return (

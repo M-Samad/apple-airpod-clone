@@ -7,6 +7,9 @@ import Video from "./component/Video";
 import VideoMan from "./component/VideoMan";
 import Soundvid from "./component/Soundvid";
 import Footer from "./component/Footer";
+import Chipcont from "./component/Chipcont";
+import Immersivetext from "./component/Immersivetext";
+import Airpodtwice from "./component/Airpodtwice";
 
 function App() {
   return (
@@ -16,8 +19,11 @@ function App() {
       <Airpodstext />
       <Canvas />
       <Video />
+      <Immersivetext />
+      <Chipcont />
+      <Airpodtwice />
+      <Soundvid />
       <Footer />
-      {/* <Soundvid /> */}
       {/* <VideoMan /> */}
     </>
   );

@@ -1,0 +1,18 @@
+.immersve-cont {
+  margin: 20vw;
+}
+
+.eyebrow-section {
+  color: white;
+}
+.headline-section {
+  background-color: black;
+  color: white;
+  font-size: 7vw;
+  font-weight: 500;
+}
+
+.intro-copy {
+  color: white;
+  max-width: 85%;
+}

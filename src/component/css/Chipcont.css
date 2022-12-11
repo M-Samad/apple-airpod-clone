@@ -1,0 +1,35 @@
+.chip-main-cont {
+  display: flex;
+  width: 100vw;
+}
+
+.chip-cont {
+  width: 50%;
+  border: 1px solid white;
+}
+
+.chip-text-cont {
+  width: 50%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chip-text {
+  color: white;
+  font-size: 1.8vw;
+  font-weight: 600;
+}
+
+.chip-text-p {
+  width: 70%;
+}
+
+.chip-text-2,
+.chip-text-4 {
+  opacity: 0.5;
+}
+
+.chip-text-3 {
+  color: rgb(2, 168, 2);
+}

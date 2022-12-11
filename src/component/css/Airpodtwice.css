@@ -1,0 +1,49 @@
+.image-1 {
+  display: none;
+  /* margin: 0 575vw 0 575px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: -1;
+  position: fixed;
+  top: 130px;
+  left: 550px;
+  opacity: 0;
+}
+.image-2 {
+  display: none;
+  /* margin: 0 575vw 0 575px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: -1;
+  position: fixed;
+  top: 130px;
+  left: 550px;
+  opacity: 0;
+}
+.fixed-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.xray-copy {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  width: 200px;
+}
+.guts-1 {
+  margin: 80vh 0 10vh 20vw;
+}
+.guts-2 {
+  margin: 10vh 0 10vh 20vw;
+}
+.guts-3 {
+  margin: 10vh 0 10vh 60vw;
+}
+/* .opac-trans {
+  opacity: 0.5;
+} */
