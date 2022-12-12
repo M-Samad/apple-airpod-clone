@@ -41,6 +41,9 @@ function Airpodtwice() {
       videoEl2.style.opacity = `${(window.pageYOffset - 6250) / 400}`;
     } else if (window.pageYOffset > 6650 && window.pageYOffset < 7050) {
       videoEl2.style.opacity = `${(7050 - window.pageYOffset) / 400}`;
+    } else {
+      videoEl2.style.opacity = `0`;
+      videoEl1.style.opacity = `0`;
     }
   });
 

@@ -58,3 +58,6 @@
 .nav-link:hover {
   opacity: 100%;
 }
+.link-a:hover {
+  text-decoration: none;
+}

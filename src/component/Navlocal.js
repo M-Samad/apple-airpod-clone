@@ -30,29 +30,44 @@ function Navlocal() {
       <div className="airpodes-container">
         <div className="airpodes-nav-content">
           <li className="airpodes-nav-title">
-            <a className="airpodes" href="">
+            <a
+              className="airpodes"
+              href="https://www.apple.com/in/airpods-pro/"
+            >
               AirPods Pro (2nd generation)
             </a>
           </li>
         </div>
         <div className="local-nav">
           <li className="airpodes-nav-title">
-            <a className="local-nav-content" href="">
+            <a
+              className="local-nav-content"
+              href="https://www.apple.com/in/airpods-pro/"
+            >
               Overview
             </a>
           </li>
           <li className="airpodes-nav-title">
-            <a className="local-nav-content" href="">
+            <a
+              className="local-nav-content"
+              href="https://www.apple.com/in/airpods-pro/specs/"
+            >
               Tech Specs
             </a>
           </li>
           <li className="airpodes-nav-title">
-            <a className="local-nav-content" href="">
+            <a
+              className="local-nav-content"
+              href="https://www.apple.com/in/airpods-pro/compare/"
+            >
               Compare
             </a>
           </li>
           <li className="airpodes-nav-title">
-            <a className="" href="">
+            <a
+              className=""
+              href="https://www.apple.com/in/shop/product/MQD83HN/A/airpods-pro"
+            >
               <button className="buy-button">Buy</button>
             </a>
           </li>
