@@ -95,8 +95,9 @@
   }
   .hero-headline {
     font-size: 8vw;
-    width: 50vw;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin: 10vw auto;
   }
   .hero-lockup {
     width: 96vw;
