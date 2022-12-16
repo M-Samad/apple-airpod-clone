@@ -6,6 +6,17 @@ function NavbarGlobal() {
     <nav className="nav-global">
       <div className="nav-container">
         <div className="nav-menu">
+          <li className="nav-link nav-button">
+            {" "}
+            <button
+              className="nav-button"
+              onClick={() => {
+                document.querySelector(".nav-link").style.display = "flex";
+              }}
+            >
+              nav-
+            </button>{" "}
+          </li>
           <li className="nav-link logo">
             <a className="link-a" href="https://www.apple.com/in"></a>
           </li>

@@ -33,3 +33,24 @@
 .chip-text-3 {
   color: rgb(2, 168, 2);
 }
+@media screen and (max-width: 965px) {
+  .chip-main-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .chip-cont {
+    width: 100vw;
+    height: 30vh;
+  }
+  .chip-text-cont {
+    width: 100vw;
+    height: 30vh;
+  }
+  .chip-video {
+    width: 63vw;
+    margin: auto auto auto 15vw;
+  }
+  .chip-text {
+    font-size: 4vw;
+  }
+}

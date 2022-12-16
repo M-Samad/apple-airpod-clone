@@ -1,8 +1,16 @@
+.text-container {
+  max-width: 100vw;
+}
 .hero-lockup {
   position: fixed;
   justify-content: center;
   z-index: -1;
 }
+/* .hero-lockup {
+  max-width: 980px;
+
+  margin: auto;
+} */
 .hero-eyebrow {
   color: rgb(86, 251, 86);
   margin: 110px 43vw 0 46vw;
@@ -14,61 +22,6 @@
   margin: 0 193px 0 193px;
   color: white;
   font-size: 200px;
-}
-
-@media screen and (min-width: 1300px) and (max-width: 1500px) {
-  .hero-headline {
-    /* position: fixed; */
-    /* left: 70%;
-    top: 50%; */
-    /* transform: translate(-50%, -50%); */
-    margin: 50px 193px 0 350px;
-    color: white;
-    font-size: 130px;
-  }
-}
-@media screen and (max-width: 1300px) {
-  .hero-headline {
-    /* position: fixed; */
-    /* left: 70%;
-    top: 50%; */
-    /* transform: translate(-50%, -50%); */
-    margin: 50px 193px 0 285px;
-    color: white;
-    font-size: 130px;
-  }
-}
-
-.hero-rebuilt {
-  position: fixed;
-  z-index: -4;
-  margin: 250px 220px 0 217px;
-  opacity: 0;
-  color: white;
-  font-size: 85px;
-}
-
-@media screen and (max-width: 1500px) {
-  .hero-rebuilt {
-    position: fixed;
-    z-index: -4;
-    margin: 230px 225px 0 265px;
-    opacity: 0;
-    color: white;
-    font-size: 60px;
-    align-self: center;
-  }
-}
-
-.hero-announce {
-  display: flex;
-  justify-content: center;
-  margin: 50px 0 0 0;
-}
-@media screen and (max-width: 1500px) {
-  .hero-announce {
-    margin: 100px 0px 0 0px;
-  }
 }
 
 .hero-links {
@@ -90,4 +43,151 @@
 
 .icon-wrapper {
   text-decoration: none;
+}
+
+.hero-rebuilt {
+  position: fixed;
+  z-index: -4;
+  margin: 250px 220px 0 217px;
+  opacity: 0;
+  color: white;
+  font-size: 85px;
+}
+.hero-announce {
+  display: flex;
+  width: 60vw;
+  justify-content: center;
+  margin: 50px auto 0 auto;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+  .hero-rebuilt {
+    position: fixed;
+    z-index: -4;
+    margin: 230px 225px 0 265px;
+    opacity: 0;
+    color: white;
+    font-size: 60px;
+    align-self: center;
+  }
+  .hero-headline {
+    font-size: 7vw;
+  }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+  .hero-announce {
+    margin: 100px 0px 0 0px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .text-container {
+    max-width: 100vw;
+    margin-top: 30vh;
+  }
+  .hero-eyebrow {
+    margin: auto;
+
+    width: 15vw;
+    font-size: 1rem;
+  }
+  .hero-headline {
+    font-size: 8vw;
+    width: 12rem;
+    margin: auto;
+  }
+  .hero-lockup {
+    width: 100vw;
+  }
+  .hero-lockup-inner {
+    width: 100vw;
+  }
+  .hero-announce {
+    margin: auto;
+    width: 50vw;
+
+    /* display: flex;
+    justify-content: center; */
+  }
+  .hero-rebuilt {
+    margin: 0 auto 0 20vw;
+    font-size: 5vw;
+  }
+  .hero-links {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+  }
+  .icon-copy {
+    font-size: 3vw;
+  }
+  /* .hero-eyebrow {
+    font-size: 3vw;
+    width: 3rem;
+    margin: 15rem auto 1rem;
+  } */
+  /* .hero-rebuilt {
+    position: fixed;
+    display: block;
+    z-index: -4;
+    max-width: 50%;
+    margin: 15rem 3rem 0;
+    opacity: 0;
+    color: white;
+    font-size: 6vw;
+    align-self: center;
+  } */
+  /* .hero-links {
+    max-width: 50%;
+  } */
+  /* .icon-copy {
+    font-size: 100%;
+  } */
+
+  /* .hero-lockup-inner {
+    width: 100%;
+  } */
+  /* .hero-announce {
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  } */
+  /* .hero-lockup {
+    position: fixed; */
+
+  /* justify-content: center; */
+  /* min-width: 100vw;
+    max-width: 100vw; */
+  /* width: 50%;
+    width: 100%;
+    z-index: -1;
+    margin-top: 3rem;
+  } */
+}
+@media screen and (min-width: 1000px) and (max-width: 1500px) {
+  .hero-headline {
+    /* position: fixed; */
+    /* left: 70%;
+    top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    margin: 50px 193px 0 350px;
+    color: white;
+    font-size: 130px;
+  }
+}
+@media screen and (min-width: 1300px) and (max-width: 1300px) {
+  .hero-headline {
+    /* position: fixed; */
+    /* left: 70%;
+    top: 50%; */
+    /* transform: translate(-50%, -50%); */
+    margin: 50px 193px 0 285px;
+    color: white;
+    font-size: 130px;
+  }
+  .hero-eyebrow {
+    font-size: 2vw;
+  }
 }

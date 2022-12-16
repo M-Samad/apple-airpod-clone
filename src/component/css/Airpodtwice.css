@@ -47,3 +47,34 @@
 /* .opac-trans {
   opacity: 0.5;
 } */
+@media screen and (max-width: 960px) {
+  .image-1 {
+    display: none;
+    /* margin: 0 575vw 0 575px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: -1;
+    position: fixed;
+    top: 130px;
+    left: 2vw;
+    opacity: 0;
+  }
+  .image-2 {
+    display: none;
+    /* margin: 0 575vw 0 575px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: -1;
+    position: fixed;
+    top: 130px;
+    left: 2vw;
+    opacity: 0;
+  }
+  .guts-3 {
+    margin: 50vh 0 150vh 30vw;
+  }
+}

@@ -18,7 +18,7 @@
 
 .App-header {
   min-height: 100vh;
-  min-width: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,9 +29,6 @@
   top: -150px;
   z-index: -1;
 }
-/* .airpod-images {
-  min-width: 100%;
-} */
 
 .App-link {
   color: #61dafb;
@@ -44,4 +41,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+@media screen and (max-width: 800px) {
+  /* .App-header {
+    margin-top: 45rem;
+  } */
 }

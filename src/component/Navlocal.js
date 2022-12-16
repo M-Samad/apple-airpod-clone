@@ -39,6 +39,7 @@ function Navlocal() {
           </li>
         </div>
         <div className="local-nav">
+          <li className="airpodes-nav-title drop-local">\/</li>
           <li className="airpodes-nav-title">
             <a
               className="local-nav-content"

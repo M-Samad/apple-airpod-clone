@@ -10,7 +10,7 @@
   width: 100%;
   opacity: 0;
 }
-@media screen and (max-width: 1470px) {
+@media screen and (min-width: 965px) and (max-width: 1470px) {
   .sound-video-1 {
     top: -10vh;
   }
@@ -23,7 +23,7 @@
   left: 35vw;
   opacity: 0;
 }
-@media screen and (max-width: 1470px) {
+@media screen and (min-width: 965px) and (max-width: 1470px) {
   .image-video-1 {
     top: 28vh;
     left: 38vw;
@@ -38,4 +38,14 @@
   position: fixed;
   top: 0;
   left: 0;
+}
+@media screen and (max-width: 965px) {
+  .sound-video-1 {
+    top: 15vh;
+  }
+  .image-video-1 {
+    top: 25vh;
+    left: 38vw;
+    width: 20vw;
+  }
 }

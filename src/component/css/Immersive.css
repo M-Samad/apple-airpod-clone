@@ -16,3 +16,14 @@
   color: white;
   max-width: 85%;
 }
+@media screen and (max-width: 960px) {
+  .immersve-cont {
+    margin: 20vw;
+  }
+  .headline-section {
+    font-size: 9vw;
+  }
+  .intro-copy {
+    font-size: 3vw;
+  }
+}

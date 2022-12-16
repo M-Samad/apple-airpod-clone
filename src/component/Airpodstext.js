@@ -60,7 +60,7 @@ function Airpodstext() {
   //   });
 
   return (
-    <>
+    <div className="text-container">
       <h1 className="hero-rebuilt">Rebuilt from the sound up.</h1>
       <div className="hero-lockup">
         <div className="hero-lockup-inner">
@@ -68,29 +68,13 @@ function Airpodstext() {
           <h1 className="hero-headline">AirPods Pro </h1>
 
           <div className="hero-announce hero-links-anim">
-            <ul className="hero-links links-inline">
-              <li>
-                <a
-                  href="/105/media/in/airpods-pro/2022/d2deeb8e-83eb-48ea-9721-f567cf0fffa8/films/under-the-spell/airpods-pro-under-the-spell-tpl-in-2022_16x9.m3u8"
-                  id="film-airpods-pro-2nd-gen"
-                  className="icon-wrapper hero-cta"
-                  role="button"
-                >
-                  <span className="icon-copy">Watch the film</span>
-                  <span className="icon icon-after icon icon-playcircle"></span>
-                </a>{" "}
-              </li>
-              <li>
-                <a href="/in/apple-events/" className="icon-wrapper hero-cta">
-                  <span className="icon-copy">Watch the event</span>
-                  <span className="icon icon-after icon more"></span>
-                </a>{" "}
-              </li>
-            </ul>
+            <span className="icon-copy">Watch the film</span>
+
+            <span className="icon-copy">Watch the event</span>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
