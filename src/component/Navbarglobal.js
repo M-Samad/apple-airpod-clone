@@ -2,21 +2,28 @@ import React from "react";
 import "./css/globalnav.css";
 
 function NavbarGlobal() {
+  const displayNav = function (e) {
+    if (document.querySelector(".nav-menu").style.display === "flex") {
+      document.querySelector(".nav-menu").style.display = "none";
+    } else {
+      document.querySelector(".nav-menu").style.display = "flex";
+    }
+  };
+
   return (
     <nav className="nav-global">
       <div className="nav-container">
-        <div className="nav-menu">
-          <li className="nav-link nav-button">
-            {" "}
-            <button
-              className="nav-button"
-              onClick={() => {
-                document.querySelector(".nav-link").style.display = "flex";
-              }}
-            >
-              nav-
-            </button>{" "}
+        <div className="nav-menu-phone">
+          <li
+            className="nav-button"
+            onClick={() => {
+              displayNav();
+            }}
+          >
+            &#9776;
           </li>
+        </div>
+        <div className="nav-menu">
           <li className="nav-link logo">
             <a className="link-a" href="https://www.apple.com/in"></a>
           </li>

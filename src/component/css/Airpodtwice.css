@@ -74,7 +74,14 @@
     left: 2vw;
     opacity: 0;
   }
+
   .guts-3 {
     margin: 50vh 0 150vh 30vw;
+  }
+  .xray-copy {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    width: 65vw;
   }
 }
